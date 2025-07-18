@@ -53,7 +53,7 @@ export default function Level({ goToNext, goToPrevious }: StepProps) {
 
       <div className="flex items-center justify-center gap-3">
         <button
-          className="flex items-center justify-center bg-cyan-500 text-white rounded-2xl border-none px-10 py-1"
+          className="flex items-center justify-center hover:bg-cyan-500 bg-gray-500 text-white rounded-2xl border-none px-10 py-1"
           onClick={goToPrevious}
         >
           Previous
